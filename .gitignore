@@ -32,6 +32,7 @@ qt5ct/
 qt6ct/
 nvim/
 opendeck/
+pulse/
 
 # Package Manager Cache (Arch Linux/Pacman)
 var/cache/pacman/pkg/
