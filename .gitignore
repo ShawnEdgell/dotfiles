@@ -1,6 +1,7 @@
-# Temporary files and directories
+# Common temporary files and directories
 *~
 *.swp
+*.swo
 *.bak
 *.log
 tmp/
@@ -9,21 +10,52 @@ __pycache__/
 *.pyc
 *.o
 *.class
-*.DS_Store
-.Trash*
 
-# Cache directories (you can customize this list)
-Code - OSS/Cache/
-GIMP/*/cache/
-Thunar/.thumb/
-discord/Cache/
-featherpad/*.bak
-goxlr-utility/cache/
-kitty/cache/
-libreoffice/cache/
+# OS Specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.TemporaryItems
+.fseventsd
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Specific Applications to Ignore (Based on our conversation)
+dconf/
+gtk-3.0/
+qt5ct/
+qt6ct/
 nvim/
-mpv/cache/
-obs-studio/cache/
 opendeck/
-yay/cache/
-yay/build/
+
+# Package Manager Cache (Arch Linux/Pacman)
+var/cache/pacman/pkg/
+
+# Editor Specific (you can add more as needed)
+*.kate-swp
+*.gnusrc.elc
+*.auctex-auto/
+*.elc
+
+# Other common ignores (you can customize this)
+*.thumb
+*.Trash*
+*.orig
+*.pycache
+*.pytest_cache
+*.egg-info
+*.coverage
+.cache
+.thumbnails
+*.sqlite
+*.sqlite-journal
+*.mozbuild
+build/
+dist/
+node_modules/
+target/
