@@ -1,0 +1,34 @@
+window {
+  background-color: rgba(30, 30, 30, 0.9); /* Dark background with transparency */
+  border: none;
+  border-radius: 6px;
+  color: #f0f0f0; /* Light text color */
+  font-family: "Fira Sans", sans-serif; /* Choose a font */
+  font-size: 10pt;
+}
+
+#input {
+  background-color: rgba(50, 50, 50, 0.8);
+  color: #f0f0f0;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 8px;
+}
+
+#inner-box {
+  margin: 8px;
+}
+
+#scroll {
+  margin-top: 4px;
+}
+
+#entry {
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+#entry:selected {
+  background-color: rgba(80, 80, 80, 0.8);
+}

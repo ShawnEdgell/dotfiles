@@ -1,0 +1,17 @@
+[settings]
+width = 600
+height = 400
+show_match_on_empty = true
+term = kitty
+
+[keybind]
+# close wofi
+Escape = close
+# launch the currently highlighted application
+Return = activate
+# navigate with arrow keys
+Up = move_up
+Down = move_down
+# page up/down
+Page_Up = move_page_up
+Page_Down = move_page_down

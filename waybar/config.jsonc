@@ -1,47 +1,33 @@
-// Waybar config for a minimalist, floating, transparent look
 {
+  "output": "HDMI-A-1",
   "layer": "top",
-  "position": "top", // Can be "bottom" too
-  "margin-top": 5, // Pixels from the top
+  "position": "top",
+  "margin-top": 8,
   "margin-bottom": 0,
-  "margin-left": 5, // Pixels from the left
-  "margin-right": 5, // Pixels from the right
+  "margin-left": 8,
+  "margin-right": 8,
 
-  "spacing": 5, // Space between modules
+  "spacing": 5,
 
   "modules-left": [
-    "hyprland/workspaces"
+    "hyprland/workspaces",
+    "hyprland/window"
   ],
-  "modules-center": [
-    "hyprland/window" // Shows the title of the active window
-  ],
+  "modules-center": [],
   "modules-right": [
     "pulseaudio#volume",
     "network",
     "cpu",
     "memory",
-    "battery", // Only if you are on a laptop, otherwise remove or comment out
-    "clock",
     "tray",
-    "custom/power" // A simple power button
+    "clock",
+    "custom/power"
   ],
 
-  // Modules configuration
   "hyprland/workspaces": {
-    "format": "{icon}",
-    "format-icons": {
-      "1": "",
-      "2": "",
-      "3": "",
-      "4": "",
-      "5": "",
-      "6": "",
-      "7": "",
-      "8": "",
-      "9": "",
-      "10": "",
-      "active": ""
-    },
+    "format": "{name}",
+    "all-outputs": true,
+    "display-empty": false,
     "on-click": "activate"
   },
 
@@ -51,13 +37,13 @@
   },
 
   "pulseaudio#volume": {
-    "format": "{icon} {volume}%",
+    "format": " {volume}%",
     "format-muted": " Muted",
     "format-icons": {
       "default": ["", "", ""]
     },
     "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
-    "scroll-step": 5 // Percentage to increase/decrease on scroll
+    "scroll-step": 5
   },
 
   "network": {
@@ -80,13 +66,8 @@
 
   "clock": {
     "format": " {:%I:%M %p}",
-    "format-alt": " {:%Y-%m-%d}",
-    "tooltip-format": "<big>{:%Y %B %d}</big>\n<small>{:%A}</small>",
-    "calendar": true,
-    "calendar-alt": "markdown",
-    "actions": {
-        "on-click-right": "mode"
-    }
+    "tooltip": true,
+    "tooltip-format": "{:%A, %B %d, %Y}"
   },
 
   "tray": {
@@ -95,8 +76,8 @@
   },
 
   "custom/power": {
-    "format": "", // Power icon (Font Awesome)
-    "tooltip": "Power Menu",
-    "on-click": "~/.config/waybar/scripts/powermenu.sh" // Script for power menu
+    "format": "",
+    "tooltip": false,
+    "on-click": "~/.config/waybar/scripts/powermenu.sh"
   }
 }

@@ -8,7 +8,7 @@
     font-family: "Noto Sans", sans-serif; /* Use Noto Sans, fallback to generic sans-serif */
     font-size: 14px; /* Adjust as needed */
     padding: 5px; /* Padding inside the bar, around modules */
-    min-height: 35px;
+    min-height: 40px;
 }
 
 /* General module styling */
@@ -37,12 +37,10 @@
 }
 #workspaces button.active {
     color: #00ff99; /* Active workspace indicator color */
-    border-bottom: 2px solid #00ff99; /* Underline active workspace */
 }
 #workspaces button.urgent {
     color: #ff0000; /* Urgent workspace */
 }
-
 #clock {
     background-color: rgba(50, 50, 50, 0.8);
     font-weight: bold;

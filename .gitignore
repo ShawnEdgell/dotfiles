@@ -1,0 +1,29 @@
+# Temporary files and directories
+*~
+*.swp
+*.bak
+*.log
+tmp/
+temp/
+__pycache__/
+*.pyc
+*.o
+*.class
+*.DS_Store
+.Trash*
+
+# Cache directories (you can customize this list)
+Code - OSS/Cache/
+GIMP/*/cache/
+Thunar/.thumb/
+discord/Cache/
+featherpad/*.bak
+goxlr-utility/cache/
+kitty/cache/
+libreoffice/cache/
+nvim/
+mpv/cache/
+obs-studio/cache/
+opendeck/
+yay/cache/
+yay/build/
