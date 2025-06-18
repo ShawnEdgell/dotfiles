@@ -3,7 +3,7 @@ window {
   border: none;
   border-radius: 6px;
   color: #f0f0f0; /* Light text color */
-  font-family: "Fira Sans", sans-serif; /* Choose a font */
+  font-family: "Noto Sans", "Font Awesome 6 Free", sans-serif; /* Choose a font */
   font-size: 10pt;
 }
 

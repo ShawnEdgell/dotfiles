@@ -5,7 +5,7 @@
     background-color: rgba(0, 0, 0, 0); /* No background */
     border: none; /* No border */
     color: #ffffff; /* Default text color */
-    font-family: "Noto Sans", sans-serif; /* Use Noto Sans, fallback to generic sans-serif */
+    font-family: "Noto Sans", "Font Awesome 6 Free", sans-serif;
     font-size: 14px; /* Adjust as needed */
     padding: 5px; /* Padding inside the bar, around modules */
     min-height: 40px;

@@ -38,7 +38,7 @@
 
   "pulseaudio#volume": {
     "format": " {volume}%",
-    "format-muted": " Muted",
+    "format-muted": " Muted",
     "format-icons": {
       "default": ["", "", ""]
     },
@@ -55,7 +55,7 @@
   },
 
   "cpu": {
-    "format": " {usage}%",
+    "format": " {usage}%",
     "tooltip": true
   },
 
