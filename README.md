@@ -24,27 +24,6 @@ All other application configurations, caches, and temporary files are explicitly
 
 ---
 
-## Installation & Setup (WIP/Placeholder)
-
-*(You'll want to fill this section in later with actual instructions specific to your setup. For example, how you use symlinks, or a custom script to deploy these files to a new system.)*
-
-**Example rough steps:**
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/yourusername/dotfiles.git](https://github.com/yourusername/dotfiles.git) ~/.config/dotfiles-repo
-    ```
-2.  **Symlink configurations:**
-    *(You might use a tool like GNU Stow, or simple `ln -s` commands)*
-    ```bash
-    # Example for Hyprland (adjust for others)
-    ln -s ~/.config/dotfiles-repo/hypr ~/.config/hypr
-    ```
-3.  **Install dependencies:**
-    *(List any packages/programs needed for these configs to work)*
-
----
-
 ## Screenshots
 
 ![image](https://github.com/user-attachments/assets/a0f9a9c4-92a5-43b4-8d99-43653dffc620)
