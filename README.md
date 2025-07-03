@@ -45,7 +45,7 @@ All other application configurations, caches, and temporary files are explicitly
 
 ---
 
-## Screenshots (Optional)
+## Screenshots
 
 ![image](https://github.com/user-attachments/assets/a0f9a9c4-92a5-43b4-8d99-43653dffc620)
 
