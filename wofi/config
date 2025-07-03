@@ -2,6 +2,8 @@
 width = 600
 height = 400
 show_match_on_empty = true
+allow_images = true
+image_size = 24
 term = kitty
 
 [keybind]

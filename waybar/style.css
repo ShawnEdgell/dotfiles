@@ -13,10 +13,10 @@
 
 /* General module styling */
 #waybar .module {
-    background-color: rgba(30, 30, 30, 0.7); /* Slightly transparent background for modules */
+    background-color: rgba(0, 0, 0, 0); /* Slightly transparent background for modules */
     border-radius: 8px; /* Rounded corners for modules */
     padding: 4px 10px; /* Padding inside each module */
-    margin: 0 3px; /* Space between modules */
+    margin: 0 0px; /* Space between modules */
 }
 
 /* Specific module styles */

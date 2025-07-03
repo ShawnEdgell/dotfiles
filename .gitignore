@@ -1,62 +1,18 @@
-# Common temporary files and directories
-*~
-*.swp
-*.swo
-*.bak
-*.log
-tmp/
-temp/
-__pycache__/
-*.pyc
-*.o
-*.class
-
-# OS Specific files
-.DS_Store
-.AppleDouble
-.LSOverride
-Icon
-._*
-.Spotlight-V100
-.TemporaryItems
-.fseventsd
-.Trashes
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
-# Specific Applications to Ignore (Based on our conversation)
-dconf/
-gtk-3.0/
-qt5ct/
-qt6ct/
-nvim/
-opendeck/
-pulse/
-
-# Package Manager Cache (Arch Linux/Pacman)
-var/cache/pacman/pkg/
-
-# Editor Specific (you can add more as needed)
-*.kate-swp
-*.gnusrc.elc
-*.auctex-auto/
-*.elc
-
-# Other common ignores (you can customize this)
-*.thumb
-*.Trash*
-*.orig
-*.pycache
-*.pytest_cache
-*.egg-info
-*.coverage
-.cache
-.thumbnails
-*.sqlite
-*.sqlite-journal
-*.mozbuild
-build/
-dist/
-node_modules/
-target/
+*
+!.gitignore
+!hypr/
+!hypr/*
+!hypr/**/
+!kitty/
+!kitty/*
+!kitty/**/
+!mako/
+!mako/*
+!mako/**/
+!waybar/
+!waybar/*
+!waybar/**/
+!wofi/
+!wofi/*
+!wofi/**/
+!README.md # Make sure README.md is explicitly un-ignored!

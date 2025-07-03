@@ -43,7 +43,7 @@
       "default": ["", "", ""]
     },
     "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
-    "scroll-step": 5
+    "scroll-step": 5 
   },
 
   "network": {

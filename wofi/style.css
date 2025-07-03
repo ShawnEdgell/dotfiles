@@ -1,34 +1,31 @@
 window {
-  background-color: rgba(30, 30, 30, 0.9); /* Dark background with transparency */
-  border: none;
-  border-radius: 6px;
-  color: #f0f0f0; /* Light text color */
-  font-family: "Noto Sans", "Font Awesome 6 Free", sans-serif; /* Choose a font */
-  font-size: 10pt;
+    background-color: rgba(25, 25, 25, 0.95); /* Very dark, slightly transparent background */
+    border: 1px solid rgba(70, 70, 70, 0.6); /* Subtle border */
+    border-radius: 10px;
+    color: #E0E0E0; /* Light grey text */
+    font-family: "sans-serif";
+    font-size: 10pt;
+    padding: 30px; /* Increased padding for top/bottom visibility */
 }
 
 #input {
-  background-color: rgba(50, 50, 50, 0.8);
-  color: #f0f0f0;
-  border: none;
-  padding: 8px;
-  border-radius: 4px;
-  margin: 8px;
-}
-
-#inner-box {
-  margin: 8px;
-}
-
-#scroll {
-  margin-top: 4px;
+    background-color: rgba(40, 40, 40, 0.8); /* Slightly lighter input background */
+    color: #FFFFFF; /* White text for input */
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 #entry {
-  padding: 6px 10px;
-  border-radius: 4px;
+    padding: 8px 10px;
+    border-radius: 6px;
 }
 
 #entry:selected {
-  background-color: rgba(80, 80, 80, 0.8);
+    background-color: rgba(80, 80, 80, 0.7); /* Subtle highlight on selection */
+    color: #FFFFFF; /* White text on selection */
+}
+
+#text {
+    margin-left: 8px;
 }
